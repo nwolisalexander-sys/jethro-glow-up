@@ -1,0 +1,25 @@
+const SolutionSection = () => {
+  return (
+    <section className="section-spacing px-6">
+      <div className="max-w-3xl mx-auto text-center">
+        <div className="pill-badge mb-6">About Us</div>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground leading-tight">
+          That's where Jethro Works comes in.
+        </h2>
+        <div className="mt-10 space-y-6 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+          <p className="text-foreground/90 font-medium text-xl md:text-2xl">
+            We partner with creators to build, launch, and operate digital products — from strategy and positioning to execution and optimisation.
+          </p>
+          <p>
+            Some creators work with us on a single launch. Others continue building multiple products over time. There's no pressure to commit long-term — we focus on proving value first and letting the partnership grow naturally.
+          </p>
+          <p className="text-foreground font-medium">
+            You stay focused on creating. We handle the business behind the scenes.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SolutionSection;
