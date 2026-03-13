@@ -18,7 +18,7 @@ const ScrollReveal = ({ children, className = "", delay = 0 }: ScrollRevealProps
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.05, rootMargin: "0px 0px -50px 0px" }
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -28,9 +28,12 @@ const ScrollReveal = ({ children, className = "", delay = 0 }: ScrollRevealProps
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-      } ${className}`}
+      className={`${className}`}
+      style={{
+        transition: "opacity 0.7s ease-out, transform 0.7s ease-out",
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? "translateY(0)" : "translateY(32px)",
+      }}
     >
       {children}
     </div>
