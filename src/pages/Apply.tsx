@@ -38,15 +38,15 @@ const Apply = () => {
             Fill out the form below and we'll get back to you shortly.
           </p>
         </div>
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-lg shadow-primary/10">
           <iframe
-            data-tally-src="https://tally.so/embed/68N4Pe?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            data-tally-src="https://tally.so/embed/68N4Pe?alignLeft=1&hideTitle=1&dynamicHeight=1"
             loading="lazy"
             width="100%"
             height="500"
             frameBorder={0}
             title="Apply to Work With Us"
-            style={{ colorScheme: "dark" }}
+            className="rounded-2xl"
           />
         </div>
       </div>
