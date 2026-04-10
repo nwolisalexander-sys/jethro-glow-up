@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,14 +14,12 @@ const Navbar = () => {
           <a href="#model" className="hover:text-foreground transition-colors">Our Model</a>
           <a href="#result" className="hover:text-foreground transition-colors">Results</a>
         </div>
-        <a
-          href="https://jethroworks.com/apply-to-work-with-us/"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to="/apply"
           className="flex items-center gap-1.5 px-5 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
         >
           Apply Now <ArrowUpRight className="w-4 h-4" />
-        </a>
+        </Link>
       </div>
     </nav>
   );

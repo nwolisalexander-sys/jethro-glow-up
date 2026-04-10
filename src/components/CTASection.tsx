@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const CTASection = () => {
@@ -18,14 +19,12 @@ const CTASection = () => {
         </ScrollReveal>
         <ScrollReveal delay={200}>
           <div className="mt-10">
-            <a
-              href="https://jethroworks.com/apply-to-work-with-us/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/apply"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-primary text-primary-foreground font-semibold text-base hover:bg-primary/90 transition-all shadow-glow"
             >
               Apply to Work With Us <ArrowUpRight className="w-5 h-5" />
-            </a>
+            </Link>
             <p className="mt-4 text-sm text-muted-foreground italic">*Limited partnerships*</p>
           </div>
         </ScrollReveal>
