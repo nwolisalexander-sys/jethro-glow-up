@@ -2,7 +2,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const ProblemSection = () => {
   return (
-    <section className="section-spacing px-6 relative">
+    <section id="problem" className="section-spacing px-6 relative">
       <div className="absolute inset-0 gradient-glow opacity-30" />
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         <ScrollReveal>
