@@ -2,7 +2,7 @@ import { Instagram, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-border py-10 px-6">
+    <footer id="contact" className="border-t border-border py-10 px-6">
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
         <div className="flex items-center gap-6">
           <a
