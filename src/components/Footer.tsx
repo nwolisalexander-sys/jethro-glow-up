@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
         <div className="flex items-center gap-6">
           <a
-            href="https://www.instagram.com/jethro.works/"
+            href="https://www.instagram.com/alex.nwolisa?igsh=MWl0eWJpaTR4eHRkNQ=="
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
