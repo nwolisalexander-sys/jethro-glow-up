@@ -3,7 +3,7 @@ import { ArrowUpRight, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
-  { label: "Problem", href: "#problem" },
+  
   { label: "About Us", href: "#about" },
   { label: "Process", href: "#how" },
   { label: "Who We Work With", href: "#who" },
