@@ -2,7 +2,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const SolutionSection = () => {
   return (
-    <section className="section-spacing px-6">
+    <section id="about" className="section-spacing px-6">
       <div className="max-w-3xl mx-auto text-center">
         <ScrollReveal>
           <div className="pill-badge mb-6">About Us</div>
