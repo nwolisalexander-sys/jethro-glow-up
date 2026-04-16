@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   
@@ -28,9 +29,9 @@ const Navbar = () => {
       {/* Top bar */}
       <nav className="fixed top-0 left-0 right-0 z-50 w-full">
         <div className="flex items-center justify-between px-6 py-4 bg-card/80 backdrop-blur-xl border-b border-border">
-          <span className="font-heading text-lg font-bold text-foreground tracking-tight">
-            Jethro Works
-          </span>
+          <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            <img src={logo} alt="Jethro Works" className="h-8 w-auto invert" />
+          </Link>
           <button
             onClick={() => setOpen(!open)}
             className="text-foreground p-1"
