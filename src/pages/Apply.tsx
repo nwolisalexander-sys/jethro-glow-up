@@ -39,7 +39,7 @@ const Apply = () => {
           </p>
         </div>
         <div className="max-w-2xl mx-auto rounded-2xl p-[2px] bg-gradient-to-br from-primary via-purple-500 to-fuchsia-500">
-          <div className="rounded-2xl bg-fuchsia-900/70 backdrop-blur-xl p-6 md:p-10">
+          <div className="rounded-2xl bg-primary backdrop-blur-xl p-6 md:p-10">
             <iframe
               data-tally-src="https://tally.so/embed/68N4Pe?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
               loading="lazy"
