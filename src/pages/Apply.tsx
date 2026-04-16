@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Apply = () => {
   useEffect(() => {
@@ -17,8 +18,8 @@ const Apply = () => {
     <div className="min-h-screen bg-background text-foreground">
       <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-5xl">
         <div className="flex items-center justify-between px-6 py-3 rounded-2xl border border-border bg-card/80 backdrop-blur-xl">
-          <Link to="/" className="font-heading text-lg font-bold text-foreground tracking-tight">
-            Jethro Works
+          <Link to="/">
+            <img src={logo} alt="Jethro Works" className="h-8 w-auto invert" />
           </Link>
           <Link
             to="/"
