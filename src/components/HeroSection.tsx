@@ -21,7 +21,7 @@ const HeroSection = () => {
         />
       ))}
 
-      <div className="relative z-10 max-w-3xl mx-auto">
+      <div className="relative z-10 max-w-3xl mx-auto pt-16 sm:pt-0">
         <div className="pill-badge mb-8 animate-fade-in-up">
           Jethro Works — Backend Operator
         </div>
