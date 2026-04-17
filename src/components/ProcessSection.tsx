@@ -7,21 +7,21 @@ const steps = [
     label: "Strategy",
     title: "Turn attention into a clear, sellable offer.",
     description:
-      "We shape your audience insights into a strong positioning, product idea, and pricing — so you're not guessing what to sell or how to sell it.",
+      "We shape your audience insights into a strong positioning, product idea, and pricing, so you're not guessing what to sell or how to sell it.",
   },
   {
     icon: Rocket,
     label: "Launch",
     title: "Execute once. Launch right.",
     description:
-      "We build and run the entire launch system: pages, payments, delivery, and timelines — so your first launch is focused, clean, and repeatable.",
+      "We build and run the entire launch system: pages, payments, delivery, and timelines, so your first launch is focused, clean, and repeatable.",
   },
   {
     icon: Settings,
-    label: "Operations",
+    label: "Operate",
     title: "Make it run without you.",
     description:
-      "We handle fulfillment, optimisation, and scaling behind the scenes — turning your product into a system that compounds while you keep creating.",
+      "We handle fulfillment, optimisation, and scaling behind the scenes, turning your product into a system that compounds while you keep creating.",
   },
 ];
 

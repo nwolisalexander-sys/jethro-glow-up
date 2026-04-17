@@ -4,7 +4,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 const results = [
   "A clear product.",
   "A focused launch.",
-  "A profitable system behind your content — built to compound, not burn you out.",
+  "A profitable system behind your content, built to compound, not burn you out.",
 ];
 
 const ResultSection = () => {

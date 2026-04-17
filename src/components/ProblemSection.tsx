@@ -19,7 +19,7 @@ const ProblemSection = () => {
           </ScrollReveal>
           <ScrollReveal delay={200}>
             <p>
-              Turning attention into a real business requires strategy, systems, execution, and optimisation — all of which pull focus away from creating.
+              Turning attention into a real business requires strategy, systems, execution, and optimisation, all of which pull focus away from creating.
             </p>
           </ScrollReveal>
           <ScrollReveal delay={300}>

@@ -17,7 +17,7 @@ const WhoSection = () => {
               You have 20k+ followers, solid engagement, and an audience that trusts you.
             </p>
             <p className="text-lg text-muted-foreground">
-              Now you're ready to monetize beyond brand deals — with a digital product.
+              Now you're ready to monetize beyond brand deals with a digital product.
             </p>
           </div>
         </ScrollReveal>

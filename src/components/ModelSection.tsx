@@ -21,7 +21,7 @@ const ModelSection = () => {
                 We don't charge upfront fees. We don't sell courses or consulting. We partner with creators and split revenue.
               </p>
               <p>
-                That means if you don't make money, neither do we. There's no risk on your end — we only win when you win.
+                That means if you don't make money, neither do we. There's no risk on your end. We only win when you win.
               </p>
               <p className="text-foreground font-medium">
                 We handle the strategy, product creation, launch, and operations. You keep doing what you do best: creating content and building trust with your audience.
