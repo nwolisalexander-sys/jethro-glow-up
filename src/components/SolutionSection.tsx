@@ -13,12 +13,12 @@ const SolutionSection = () => {
         <div className="mt-10 space-y-6 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
           <ScrollReveal delay={100}>
             <p className="text-foreground/90 font-medium text-xl md:text-2xl">
-              We partner with creators to build, launch, and operate digital products — from strategy and positioning to execution and optimisation.
+              We partner with creators to build, launch, and operate digital products, from strategy and positioning to execution and optimisation.
             </p>
           </ScrollReveal>
           <ScrollReveal delay={200}>
             <p>
-              Some creators work with us on a single launch. Others continue building multiple products over time. There's no pressure to commit long-term — we focus on proving value first and letting the partnership grow naturally.
+              Some creators work with us on a single launch. Others continue building multiple products over time. There's no pressure to commit long-term. We focus on proving value first and letting the partnership grow naturally.
             </p>
           </ScrollReveal>
           <ScrollReveal delay={300}>
