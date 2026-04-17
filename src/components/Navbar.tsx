@@ -30,7 +30,7 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 w-full">
         <div className="flex items-center justify-between px-6 py-3 bg-card/80 backdrop-blur-xl border-b border-border h-16">
           <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="h-full flex items-center">
-            <img src={logo} alt="Jethro Works" className="h-12 w-auto object-contain brightness-0 invert" />
+            <img src={logo} alt="Jethro Works" className="h-20 w-auto object-contain brightness-0 invert -my-4" />
           </Link>
           <button
             onClick={() => setOpen(!open)}
