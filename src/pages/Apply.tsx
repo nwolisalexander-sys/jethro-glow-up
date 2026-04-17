@@ -17,9 +17,9 @@ const Apply = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-5xl">
-        <div className="flex items-center justify-between px-6 py-3 rounded-2xl border border-border bg-card/80 backdrop-blur-xl">
-          <Link to="/">
-            <img src={logo} alt="Jethro Works" className="h-10 w-10 object-contain brightness-0 invert" />
+        <div className="flex items-center justify-between px-6 py-3 rounded-2xl border border-border bg-card/80 backdrop-blur-xl h-16">
+          <Link to="/" className="h-full flex items-center">
+            <img src={logo} alt="Jethro Works" className="max-h-11 w-auto object-contain brightness-0 invert" style={{ height: '70%' }} />
           </Link>
           <Link
             to="/"
